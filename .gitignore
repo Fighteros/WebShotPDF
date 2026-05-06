@@ -6,6 +6,11 @@ dist/
 *.pdf
 screenshot-*.png
 
+# Authentication & Secrets
+auth.json
+.env
+.env.local
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
@@ -14,10 +19,6 @@ yarn-error.log*
 # OS Files
 .DS_Store
 Thumbs.db
-
-# Environment
-.env
-.env.local
 
 # TypeScript
 tsbuildinfo
